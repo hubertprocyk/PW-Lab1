@@ -7,10 +7,10 @@
         Title="PW Lab1"
         Width="640"
         Height="360">
-    <StackPanel Margin="20" Spacing="10">
+    <StackPanel Margin="15" Spacing="10">
         <TextBox x:Name="FirstNumberTextBox" Watermark="Pierwsza liczba" />
         <TextBox x:Name="SecondNumberTextBox" Watermark="Druga liczba" />
-        <StackPanel Orientation="Horizontal" Spacing="10">
+        <StackPanel Orientation="Horizontal" Spacing="5">
             <Button Content="Dodawanie" Click="OnAddClicked" />
             <Button Content="Odejmowanie" Click="OnSubtractClicked" />
         </StackPanel>
